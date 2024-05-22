@@ -155,7 +155,9 @@ header {
   width: 1200px;
   padding: 0 auto;
 }
-.about__targets .targets__web, .about__targets .targets__ios, .about__targets .targets__marketing {
+.about__targets .targets__web,
+.about__targets .targets__ios,
+.about__targets .targets__marketing {
   text-align: center;
   width: 350px;
 }
@@ -252,11 +254,13 @@ header {
   display: flex;
   justify-content: center;
 }
-.port__projects .port__firstcol img, .port__projects .port__secondcol img {
+.port__projects .port__firstcol img,
+.port__projects .port__secondcol img {
   width: 536px;
   height: 365px;
 }
-.port__projects .port__firstcol div, .port__projects .port__secondcol div {
+.port__projects .port__firstcol div,
+.port__projects .port__secondcol div {
   border: 2px solid goldenrod;
 }
 .port__projects .port__firstcol div {
@@ -330,7 +334,7 @@ header {
 
 #main__contact {
   background-color: #ffffff;
-  margin: 0 auto;
+  margin: 0 auto 105px;
   text-align: center;
   font-size: 1.333px;
   color: black;
@@ -363,11 +367,13 @@ header {
   display: flex;
   justify-content: space-between;
 }
-#main__contact .cont__content .cont__forms .forms__firstrow .forms__name, #main__contact .cont__content .cont__forms .forms__firstrow .forms__e-mail {
+#main__contact .cont__content .cont__forms .forms__firstrow .forms__name,
+#main__contact .cont__content .cont__forms .forms__firstrow .forms__e-mail {
   text-align: left;
   margin-bottom: 78px;
 }
-#main__contact .cont__content .cont__forms .forms__firstrow .forms__name .forms__input, #main__contact .cont__content .cont__forms .forms__firstrow .forms__e-mail .forms__input {
+#main__contact .cont__content .cont__forms .forms__firstrow .forms__name .forms__input,
+#main__contact .cont__content .cont__forms .forms__firstrow .forms__e-mail .forms__input {
   width: 162px;
   height: 38px;
   background-color: #f8f7f7;
@@ -376,7 +382,8 @@ header {
   font-size: 10em;
   padding: 0 10px;
 }
-#main__contact .cont__content .cont__forms .forms__firstrow .forms__name .forms__input:focus, #main__contact .cont__content .cont__forms .forms__firstrow .forms__e-mail .forms__input:focus {
+#main__contact .cont__content .cont__forms .forms__firstrow .forms__name .forms__input:focus,
+#main__contact .cont__content .cont__forms .forms__firstrow .forms__e-mail .forms__input:focus {
   outline: none;
   font-size: 10em;
 }
@@ -466,4 +473,34 @@ header {
   text-decoration: underline;
   font-style: italic;
   letter-spacing: inherit;
+}
+
+footer {
+  background-color: #3c3c3c;
+  height: 274px;
+}
+
+#footer {
+  padding-top: 30px;
+  color: #616161;
+  padding: 45px 0 30px;
+  margin: 0 auto;
+  text-align: center;
+  overflow-x: hidden;
+}
+#footer .footer__row {
+  margin: 24px 0 40px;
+}
+#footer .footer__row ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-right: -36px;
+}
+#footer .footer__row ul li + li, #footer .footer__row ul li:first-of-type {
+  margin-right: 24px;
+}
+#footer .footer__row ul li + li a, #footer .footer__row ul li:first-of-type a {
+  color: #565656;
+  text-decoration: none;
 }
