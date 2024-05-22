@@ -4,6 +4,7 @@
     margin: 0;
     border: 0;
 }
+
 // обнуление
 
 body {
@@ -18,21 +19,25 @@ header {
     background-size: cover;
     margin: 0 auto;
     text-align: center;
-    font-family: Lato;;
+    font-family: Lato;
+    ;
     color: white;
     overflow: auto;
     align-items: center;
     justify-content: center;
 }
+
 .welcome__logo {
     display: flex;
     justify-content: center;
     margin-top: 168px;
 }
+
 .welcome__title {
     margin: 166px 0 18px;
     font-size: 34px;
 }
+
 .welcome__subtitle {
     font-size: 26px;
 }
@@ -58,14 +63,16 @@ header {
     padding: 16px 42px;
     font-size: 16px;
     border: 2px solid white;
-    
+
 }
 
 .welcome__parentlink {
     color: white;
     text-decoration: none;
+
     &:hover {
         color: goldenrod;
+
         .welcome__link {
             border: 2px solid goldenrod;
         }
@@ -96,15 +103,18 @@ header {
 .about__row {
     height: 16px;
     padding: 22px;
-    border-bottom: 1px solid rgba($color: rgb(128,128,128), $alpha: 0.2);
+    border-bottom: 1px solid rgba($color: rgb(128, 128, 128), $alpha: 0.2);
+
     a {
         color: black;
         text-decoration: none;
         text-transform: uppercase;
     }
+
     a:hover {
         color: goldenrod;
     }
+
     margin-bottom: 128px;
 }
 
@@ -112,7 +122,7 @@ header {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    
+
 }
 
 .about__row li {
@@ -133,6 +143,7 @@ header {
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 8px;
+
     &::after {
         content: '';
         position: relative;
@@ -151,7 +162,7 @@ header {
     color: #868585;
     font-weight: 400;
     margin: 52+40px auto 0;
-    line-height: 24px;   
+    line-height: 24px;
 }
 
 .about__targets {
@@ -160,20 +171,23 @@ header {
     margin: 124px auto 0;
     width: 1200px;
     padding: 0 auto;
-    .targets__web, .targets__ios, .targets__marketing {
+
+    .targets__web,
+    .targets__ios,
+    .targets__marketing {
         text-align: center;
         width: 350px;
     }
 }
 
 .targets__web {
-    & + .targets__ios {
+    &+.targets__ios {
         margin-left: 48px;
     }
 }
 
 .targets__ios {
-    & + .targets__marketing {
+    &+.targets__marketing {
         margin-left: 48px;
     }
 }
@@ -193,8 +207,9 @@ header {
     font-size: 29px;
     letter-spacing: 6px;
     margin: 0 auto 40px;
-    
+
 }
+
 .web__title {
     text-transform: uppercase;
 }
@@ -207,7 +222,7 @@ header {
     font-weight: 400;
     font-size: 19px;
     color: #868585;
-    line-height: 26px; 
+    line-height: 26px;
     flex: 0 1 33.333%;
 }
 
@@ -219,7 +234,7 @@ header {
 // portfolio
 
 #main__portfolio {
-    
+
     background-color: #f3f3f3;
     background-size: cover;
     margin: 0 auto;
@@ -233,6 +248,7 @@ header {
     padding-top: 110px;
     font-size: 34em;
     letter-spacing: 8px;
+
     &::after {
         content: '';
         position: relative;
@@ -248,14 +264,16 @@ header {
     font-size: 15em;
     margin: 90px auto 138px;
     width: 20%;
-    
+
     ul {
         list-style-type: none;
         display: flex;
         justify-content: space-evenly;
-        a {   
+
+        a {
             text-decoration: none;
             color: black;
+
             &:hover {
                 color: goldenrod;
             }
@@ -266,21 +284,26 @@ header {
 .port__projects {
     display: flex;
     justify-content: center;
-    .port__firstcol, .port__secondcol {
+
+    .port__firstcol,
+    .port__secondcol {
         img {
             width: 536px;
             height: 365px;
         }
+
         div {
             border: 2px solid goldenrod;
         }
     }
+
     .port__firstcol {
         div {
             margin-right: 14px;
             margin-bottom: 11px;
         }
     }
+
     .port__secondcol {
         div {
             margin-left: 14px;
@@ -292,17 +315,21 @@ header {
 .port__link {
     margin: 66-11px auto 0;
     height: 92px;
+
     a {
         color: black;
         text-decoration: none;
+
         span {
             padding: 16px 40px;
             width: 182px;
             border: 2px solid black;
             font-size: 16em;
         }
+
         &:hover {
             color: goldenrod;
+
             span {
                 border: 2px solid goldenrod;
             }
@@ -322,31 +349,38 @@ header {
     font-size: 1.333px;
     background-position: 0px 420px;
     overflow: auto;
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
 
 .part__content {
     margin: 100px auto 105px;
+
     .part__title {
         font-size: 30.36em;
         font-weight: 300;
         margin-bottom: 102px;
     }
+
     .part__logorow {
         display: flex;
         justify-content: center;
+
         .part__logo1 {
             margin-right: 110px;
         }
-        .part__logo1 + .part__logo2 {
+
+        .part__logo1+.part__logo2 {
             margin-right: 110px;
         }
-        .part__logo2 + .part__logo3 {
+
+        .part__logo2+.part__logo3 {
             margin-right: 110px;
         }
-        .part__logo3 + .part__logo4 {
+
+        .part__logo3+.part__logo4 {
             margin-right: 110px;
         }
+
         margin-right: -110px;
     }
 }
@@ -355,16 +389,18 @@ header {
 
 #main__contact {
     background-color: #ffffff;
-    margin: 0 auto;
+    margin: 0 auto 105px;
     text-align: center;
     font-size: 1.333px;
     color: black;
     font-family: Lato;
+
     .cont__title {
         font-size: 34em;
         letter-spacing: 8px;
         margin: 184px auto 170px;
         font-weight: 400;
+
         &::after {
             content: '';
             position: relative;
@@ -375,18 +411,24 @@ header {
             display: block;
         }
     }
+
     .cont__content {
         display: flex;
         justify-content: center;
+
         .cont__forms {
             margin-right: 82px;
             width: 384px;
+
             .forms__firstrow {
                 display: flex;
                 justify-content: space-between;
-                .forms__name, .forms__e-mail {
+
+                .forms__name,
+                .forms__e-mail {
                     text-align: left;
                     margin-bottom: 78px;
+
                     .forms__input {
                         width: 162px;
                         height: 38px;
@@ -395,18 +437,22 @@ header {
                         border-radius: 0%;
                         font-size: 10em;
                         padding: 0 10px;
+
                         &:focus {
                             outline: none;
                             font-size: 10em;
                         }
                     }
                 }
+
                 .forms__name {
                     margin-right: 60px;
                 }
             }
+
             .forms__secondrow {
                 text-align: left;
+
                 .forms__message {
                     .forms__textarea {
                         width: 162+162+80px;
@@ -415,6 +461,7 @@ header {
                         border-top: 1px solid black;
                         padding: 10px;
                         font-size: 16em;
+
                         &:focus {
                             outline: none;
                             font-size: 20em;
@@ -422,6 +469,7 @@ header {
                     }
                 }
             }
+
             .forms__send {
                 font-size: 14em;
                 text-align: right;
@@ -443,16 +491,19 @@ header {
     font-size: 14em;
     text-align: left;
     width: 388px;
+
     .comment__text {
         line-height: 32px;
         margin-bottom: 42px;
     }
+
     .comment__name {
         margin-bottom: 28px;
     }
+
     .comment__icons {
         display: flex;
-        
+
         .comment__icon1 {
             align-content: center;
             height: 16px;
@@ -463,6 +514,7 @@ header {
             text-align: center;
             margin-right: 14px;
         }
+
         .comment__icon2 {
             align-content: center;
             height: 16px;
@@ -471,22 +523,26 @@ header {
             border: 2px solid black;
             border-radius: 50%;
             text-align: center;
+
             img {
                 padding: auto;
-            }    
+            }
         }
     }
+
     .comment__e-mail {
         width: 268px;
         display: flex;
         justify-content: space-between;
         margin-top: 18px;
+
         address {
             a {
                 color: black;
                 text-decoration: none;
                 font-style: normal;
                 letter-spacing: normal;
+
                 &:hover {
                     color: blue;
                     text-decoration: underline;
@@ -496,4 +552,38 @@ header {
             }
         }
     }
+}
+
+// footer
+
+footer {
+    background-color: #3c3c3c;
+    height: 274px;
+}
+
+#footer {
+    padding-top: 30px;
+    color: #616161;
+    padding: 45px 0 30px;
+    margin: 0 auto;
+    text-align: center;
+
+    .footer__row {
+        margin: 24px 0 40px;
+        ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+
+            li + li, li:first-of-type {
+                margin-right: 24px;
+                a {
+                    color: #565656;
+                    text-decoration: none;
+                }
+            }
+            margin-right: -36px;
+        }
+    }
+    overflow-x: hidden;
 }
